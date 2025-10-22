@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeynep Ceren Erdem – Home</title>
+
+  <!-- Fonts & Styles -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2b4e9c8e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="index.html">ZC</a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <!-- HERO SECTION with fade-in -->
+<section class="hero fade-section">
+  <div class="hero-inner balanced-layout">
+    
+    <!-- LEFT TEXT -->
+    <div class="intro">
+      <h1>Hi, I'm <span class="accent">Zeynep Ceren Erdem</span> 👋</h1>
+      <p class="subtitle">
+        Geomatics Engineering student at Hacettepe University, passionate about GIS, remote sensing, and data visualization.  
+        I like transforming spatial data into meaningful and creative insights.
+      </p>
+
+      <div class="social-links">
+        <a href="https://github.com/zecereve" target="_blank" class="social-btn">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/ceren-erdem-7102b426a/" target="_blank" class="social-btn">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="about.html" class="btn-ghost">✨ Learn More About Me</a>
+      </div>
+    </div>
+
+    <!-- RIGHT PHOTO -->
+    <div class="intro-photo">
+      <img src="images/profile.jpg" alt="Zeynep Ceren Erdem" />
+    </div>
+
+  </div>
+</section>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container fade-section">
+    <section>
+      <h2>Places I've Been</h2>
+      <p>Discover the cities I’ve visited across Turkey —  
+      each marker represents a memory and a moment worth remembering.</p>
+      <div id="map" class="map"></div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer fade-section">
+    <p>
+      © <span id="y"></span> Zeynep Ceren Erdem · Made with 💻 & ☕
+    </p>
+  </footer>
+
+  <!-- OpenLayers & Script -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css">
+  <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
