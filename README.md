@@ -81,6 +81,6 @@ It is **not my latest professional CV**, and some details (such as recent experi
 ## ⚙️ Hosting
 
 The website is publicly available at the following link:  
-🔗 **Live Demo:** [https://gmt-458-web-gis.github.io/personal-web-page-zecereve/]([https://gmt-458-web-gis.github.io/personal-web-page-zecereve/](https://zecereve.github.io/my-web-page/))
+🔗 **Live Demo:** [https://gmt-458-web-gis.github.io/personal-web-page-zecereve/]((https://zecereve.github.io/my-web-page/))
 
 ---
